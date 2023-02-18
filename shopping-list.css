@@ -1,78 +1,111 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #0c2340;
-  }
-  #shopping-list {
-    margin: 20px auto;
-    max-width: 600px;
-    border: 1px solid #ccc;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    margin-top: 20px;
-    background-color: #fff;
-  }
-  h1 {
-    text-align: center;
-  }
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  input[type="text"] {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
-  }
-  button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    margin-bottom: 10px;
-  }
-  button:hover {
-    background-color: #3e8e41;
-  }
-  .item {
-    display: flex;
-    align-items: center;
-    margin-bottom: 5px;
-  }
-  .item input[type="checkbox"] {
-    margin-right: 10px;
-  }
-  .item span {
-    flex-grow: 1;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 10px;
-  }
-  .to-buy {
-    border: 1px solid #ccc;
-    border-radius: 3px;
-    padding: 10px;
-    min-height: 100px;
-  }
-  .item .delete-icon {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background-image: url('icons/delete-icon.png');
-    background-size: contain;
-    cursor: pointer;
-    margin-left: 10px;
-  }
-  
-  .item span.completed {
-    text-decoration: line-through;
-  }
+/* unchanged styles */
 
-  
-  
-  
-  
+body {
+  font-family: Arial, sans-serif;
+  background-color: #0c2340;
+}
+
+#shopping-list {
+  margin: 20px auto;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+#new-item2 {
+  width: 100px;
+  font-weight: bold
+}
+
+#remove-all-button {
+  background-color: red;
+  color: black;
+  font-weight: bold
+}
+
+#add-button {
+  background-color: green;
+  color: black;
+  font-weight: bold
+}
+
+h1 {
+  text-align: center;
+}
+
+/* new styles for .new-item-container */
+
+.new-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.new-item-container label {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.item span {
+  flex-grow: 1;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.to-buy {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 10px;
+  min-height: 100px;
+}
+
+.item .delete-icon {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image: url('icons/delete-icon.png');
+  background-size: contain;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.item span.completed {
+  text-decoration: line-through;
+}

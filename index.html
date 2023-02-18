@@ -8,10 +8,14 @@
   <body>
     <div id="shopping-list">
       <h1>Shopping List</h1>
-      <label for="new-item">New item:</label>
-      <input type="text" id="new-item" placeholder="Enter a new item">
-      <button id="add-button">Add</button>
-      <button id="remove-all-button">Remove All</button>
+      <div class="new-item-container">
+        <label for="new-item" id="new-item2">New item:</label>
+        <input type="text" id="new-item" placeholder="Enter a new item">
+      </div>
+      <div class="button-container">
+        <button id="add-button">Add</button>
+        <button id="remove-all-button">Remove All</button>
+      </div>
       <div class="to-buy" id="to-buy">
         <!-- The list of items will be dynamically generated here -->
       </div>
