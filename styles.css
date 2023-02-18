@@ -64,3 +64,13 @@ body {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
   }
+
+  .delete-icon {
+    display: inline-block;
+    margin-left: 8px;
+    width: 16px;
+    height: 16px;
+    background-image: url("icons/delete-icon.png");
+    background-size: cover;
+    cursor: pointer;
+  }
