@@ -1,3 +1,4 @@
+//JS for shopping list
 const newItemInput = document.getElementById('new-item');
 const addButton = document.getElementById('add-button');
 const removeAllButton = document.getElementById('remove-all-button');
