@@ -2,7 +2,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #0c2340;
+  background-color: #136783;
 }
 
 #shopping-list {
@@ -13,7 +13,9 @@ body {
   border-radius: 5px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
-  background-color: #fff;
+  background-color: #d7dce0;
+  border-style: ridge;
+  border-width: 6px;
 }
 
 #new-item2 {
